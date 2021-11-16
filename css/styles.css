@@ -1,0 +1,62 @@
+body{
+    background-color:rgb(231, 193, 199)
+}
+.contenedor{
+
+    display: grid;
+    border: solid;
+    grid-template-columns: 25% 25% 25% 25%;
+    
+}
+
+
+.flex-container{
+
+display: flex;
+background-color: cadetblue;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-evenly;
+align-items: center;
+align-content: flex-start;
+}
+
+.flex-container div{
+
+background-color: rgb(187, 184, 184);
+font-size: 20pt;
+border: solid;
+margin: 5px;
+height: 200px;
+width: 300px;
+}
+
+.h1{
+    text-align: center;
+}
+table th{
+    width: 10cm;
+    background-color: darkseagreen;
+
+   
+}
+
+table td{
+
+    background-color: rgb(196, 219, 219);
+    height: 50px;
+    width: 50px;
+    border: solid;
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+    border-style:double
+
+}
+
+tr:nth-of-type(1) >th{
+
+    background-color: rgba(226, 224, 116, 0.904);
+}
+
